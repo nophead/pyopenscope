@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 class OpenScope:
     """
     Library designed to communicate with the OpenScope
@@ -169,7 +171,7 @@ class OpenScope:
         Set the parameters of the arbitrary waveform generator channel(s) to output a regular waveform.
 
         :param channel: which waveform generator channel to set
-        :param signalType: (String) - The waveform type: “sine”, “square”, “triangle”, “dc”, “sawtooth”, “arbitrary”, or “none”.
+        :param signalType: (String) - The waveform type: "sine", "square", "triangle", "dc", "sawtooth", "arbitrary", or "none".
         :param signalFreq: (Integer) - The signal frequency in mHz.
         :param vpp: (Integer) - The peak-to-peak voltage in mV.
         :param vOffset: (Integer) - The voltage offset in mV.
